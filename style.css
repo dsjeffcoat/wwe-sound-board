@@ -1,17 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family-Muli&display=swap');
 
 * {
     box-sizing: border-box;
 }
 
 body {
-   font-family: 'Roboto', sans-serif;
+   background: rgba(43, 43, 43, 0.7); 
+   background-image: url('images/wwelogo.jpeg');
+   background-repeat: no-repeat;
+   background-size: cover; 
+   background-blend-mode: multiply;
+   font-family: 'Muli', sans-serif;
    display: flex;
-   flex-direction: column;
+   flex-wrap: wrap;
    align-items: center;
    justify-content: center;
+   text-align: center;
    height: 100vh;
    overflow: hidden;
    margin: 0;
 }
 
+.btn {
+    background-color: rgba(211, 3, 3, 0.932);
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    margin: 1rem;
+    padding: 1.5rem 3rem;
+    font-size: 1.2rem;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
